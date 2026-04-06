@@ -131,6 +131,9 @@
 
 	allow_custom_shuttles = json["allow_custom_shuttles"] != FALSE
 
+	if("maptype" in json)
+		SSmaptype.maptype = json["maptype"]
+
 	defaulted = FALSE
 	return TRUE
 #undef CHECK_EXISTS

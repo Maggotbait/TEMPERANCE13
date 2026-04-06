@@ -136,6 +136,14 @@
 	///Jobs that change their advclass examine as the user levels up.
 	var/adaptive_name = FALSE
 
+	//MAPTYPES
+	/// Job's station type. Will affect what kinds of map the job spawns on.
+	var/maptype = "temperance"
+	///Used to exclude jobs
+	var/list/mapexclude = list("none")
+	//If this job is needed to load, then this the flag that keeps it to load.
+	var/loadalways = FALSE
+
 
 /*
 	How this works, its CTAG_DEFINE = amount_to_attempt_to_role
