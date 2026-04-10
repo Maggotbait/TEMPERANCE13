@@ -13,6 +13,8 @@
 	name = "trench tabard"
 	desc = "A Risvonian tabard specifically sewn to drape down to the knees. Sports the red of the Risvonian Standard."
 	icon_state = "malumtabard"
+	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_cloaks.dmi'
+	sleevetype = "shirt"
 
 /obj/item/clothing/cloak/templar/necran
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
