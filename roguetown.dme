@@ -2620,6 +2620,7 @@
 #include "modular_temperance\code\modules\classunique\midsomber\arcyne_conduit.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\arcyne_momentum.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\bind_weapon.dm"
+#include "modular_temperance\code\modules\classunique\midsomber\bloodfeast.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\funeral.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\recall_weapon.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\topple.dm"
