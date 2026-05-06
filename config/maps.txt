@@ -14,7 +14,8 @@ Format:
 endmap
 
 map roguetest
-
+	default
+	votable
 endmap
 
 map dun_manor
@@ -27,6 +28,4 @@ map temperance
 endmap
 
 map kingsworld
-	default
-	votable
 endmap

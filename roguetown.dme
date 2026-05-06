@@ -8,6 +8,7 @@
 // END_PREFERENCES
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
+#include "_maps\roguetest.dm"
 #include "_maps\map_files\generic\CentCom.dmm"
 #include "_maps\templates\arcyne_fortress.dm"
 #include "_maps\templates\bog_shack_small.dm"
@@ -2621,6 +2622,7 @@
 #include "modular_temperance\code\modules\classunique\midsomber\bind_weapon.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\funeral.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\recall_weapon.dm"
+#include "modular_temperance\code\modules\classunique\midsomber\topple.dm"
 #include "modular_temperance\code\reagents\drugs\heroin.dm"
 #include "modular_temperance\code\reagents\drugs\meth.dm"
 #include "modular_temperance\code\weapons\midsomber.dm"
