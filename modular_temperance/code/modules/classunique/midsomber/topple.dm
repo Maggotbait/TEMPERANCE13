@@ -41,7 +41,6 @@
 		revert_cast()
 		return
 
-	H.say("...I'll gouge out your contemptuous eyes.")
 //insert grunts here
 	var/damage = base_damage
 	var/def_zone = H.zone_selected || BODY_ZONE_CHEST
@@ -52,6 +51,7 @@
 		var/turf/dest = get_ranged_target_turf_direct(user, victim, get_dist(user, victim) + 2)
 		if(!dest)
 			dest = get_turf(victim)
+		playsound(H, 'modular_temperance/sounds/midsomber/shout.ogg', 80, FALSE)
 		topple_dash_to(user, dest, victim, beam_color)
 		arcyne_strike(user, victim, null, damage, def_zone, BCLASS_CUT)
 		playsound(H, pick(combo_sounds), 80, FALSE)
@@ -65,8 +65,7 @@
 		topple_dash_to(user, dest, victim, beam_color)
 		arcyne_strike(user, victim, null, damage, def_zone, BCLASS_CUT)
 		playsound(H, pick(combo_sounds), 80, FALSE)
-		H.emote("attack", forced = TRUE)
-		sleep(0.3 SECONDS)
+		sleep(0.7 SECONDS)
 
 		if(!victim|| !user) //third hit
 			return
@@ -76,5 +75,5 @@
 		topple_dash_to(user, dest, victim, beam_color)
 		arcyne_strike(user, victim, null, damage, def_zone, BCLASS_CUT)
 		playsound(H, pick(combo_sounds), 80, FALSE)
-		H.emote("attack", forced = TRUE)
+		playsound(H, 'modular_temperance/sounds/midsomber/gasp.ogg', 80, FALSE)
 		sleep(0.3 SECONDS)
