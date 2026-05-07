@@ -22,7 +22,6 @@
 	var/empowered_mult = 2
 	var/beam_color = COLOR_BLOODRED
 	var/combo_sounds = list ('modular_temperance/sounds/midsomber/punch1.ogg', 'modular_temperance/sounds/midsomber/punch2.ogg', 'modular_temperance/sounds/midsomber/punch3.ogg')
-	var/min_momentum = 2
 
 
 ///dash helper - uses forcemove but i think it should be fine

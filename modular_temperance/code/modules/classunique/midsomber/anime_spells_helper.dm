@@ -77,7 +77,7 @@ without going through the click pipeline, so spells can deliver weapon-style str
 
 	playsound(get_turf(target), hit_sound, 100, TRUE)
 	if(!skip_message)
-		var/weapon_name = weapon ? weapon.name : "arcyne force"
+		var/weapon_name = weapon ? weapon.name : "blood magic"
 		user.visible_message(
 			span_danger("[user] [attack_verb] [target] with [weapon_name]!"),
 			span_notice("I [attack_verb] [target] with my [weapon_name]!"))
