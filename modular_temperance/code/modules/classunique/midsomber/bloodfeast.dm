@@ -1,6 +1,6 @@
 /obj/effect/proc_holder/spell/invoked/bloodfeast
 	name = "Bloodfeast"
-	desc = "Anchor yourself into the ground, extending out your hand and starting a four-strike, 4-tile wide AOE attack that heals brute damage with each strike."
+	desc = "Anchor yourself into the ground, extending out your hand and starting a four-strike, 3-tile wide AOE attack that heals brute damage with each strike."
 	clothes_req = FALSE
 	range = 7
 	overlay_state = "coagulated_blood"
@@ -18,7 +18,7 @@
 	xp_gain = FALSE
 	var/damage = 60
 	var/telegraph_delay = 4
-	var/area_of_effect = 4
+	var/area_of_effect = 3
 
 /obj/effect/proc_holder/spell/invoked/bloodfeast/cast(mob/living/target, list/targets, mob/user = usr)
 	var/mob/living/carbon/human/H = user
